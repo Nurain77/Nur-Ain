@@ -1,0 +1,48 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="newstyle.css">
+ <link rel="icon" type="image/png" href="oniclogo.png">
+ <script type="text/javascript">
+	alert("Gallery");
+	</script>
+
+</head>
+<body>
+  <header>
+    <h1><b>Gallery</b></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="kairiachievement.html">Achievements</a>
+      <a href="kairiskills.html">Skills</a>
+      <a href="kairigallery.html">Gallery</a>
+      <a href="kairisocialmedia.html">Social Media</a>
+    </nav>
+  </header>
+  <main>
+	<center>
+    <img src="kairiandteam.jpg" alt="ONIC" height="300" width="600">
+    <img src="kairiinmpl.jpg" height="350" width="500">
+    <img src="Onic-Kairi.png" height="300" width="600">
+    <img src="kairimplids13.jpg" alt="MPL Indonesia S13" height="300" width="600">
+</center>
+  </main>
+  
+    <p>&copy; Kairi 2025</p>
+    <div id="clock" style="font-weight: bold; margin-top: 5px;"></div>
+  <script>
+    function updateClock() {
+      const clock = document.getElementById('clock');
+      if (!clock) return;
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString();
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>

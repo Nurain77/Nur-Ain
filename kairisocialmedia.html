@@ -1,0 +1,71 @@
+<!-- social media.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media</title>
+  <link rel="stylesheet" href="newstyle.css">
+ <link rel="icon" type="image/png" href="oniclogo.png">
+ <script type="text/javascript">
+	alert("Social Media");
+	</script>
+
+</head>
+<body>
+  <header>
+    <h1><b>Social Media</b></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="kairiachievement.html">Achievements</a>
+      <a href="kairiskills.html">Skills</a>
+      <a href="kairigallery.html">Gallery</a>
+      <a href="kairisocialmedia.html">Social Media</a>
+    </nav>
+  </header>
+
+  <main>
+<center>
+    <section class="social-media-section">
+      <table>
+        <p><i>Catch every highlight, announcement and victory by click the link below!</i><p>
+        <tr>
+          <th>Platform</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>
+	<img src="ig.jpeg" width="40px"; height="40px"></td>
+          <td><a href="https://www.instagram.com/kairirds/" target="_blank">kairirds</a></td>
+        </tr>
+        <tr>
+          <td>
+	<img src="youtube.png" width="40px"; height="40px"></td>
+
+          <td><a href="https://www.youtube.com/@KairiPlayz" target="_blank">@KairiPlayz</a></td>
+        </tr>
+<tr>
+          <td>
+	<img src="tiktok.png" width="40px"; height="40px"></td>
+          <td><a href="https://www.tiktok.com/@kairirisolmayo" target="_blank">@kairirisolmayo</a></td>
+        </tr>
+      </table>
+    </section>
+  </main>
+</center>
+
+  
+    <p>&copy; Kairi 2025</p>
+    <div id="clock" style="font-weight: bold; margin-top: 5px;"></div>
+  <script>
+    function updateClock() {
+      const clock = document.getElementById('clock');
+      if (!clock) return;
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString();
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>

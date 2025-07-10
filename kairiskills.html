@@ -1,0 +1,103 @@
+<!-- skills.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <link rel="stylesheet" href="newstyle.css">
+ <link rel="icon" type="image/png" href="oniclogo.png">
+ <script type="text/javascript">
+	alert("Skills");
+	</script>
+
+ <style>
+    .video-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .video-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .video-container iframe {
+      width: 360px;
+      height: 215px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><b>Skills</b></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="kairiachievement.html">Achievements</a>
+      <a href="kairiskills.html">Skills</a>
+      <a href="kairigallery.html">Gallery</a>
+      <a href="kairisocialmedia.html">Social Media</a>
+    </nav>
+  </header>
+  <main>
+    <h2><center>Skills</center></h2>
+    <ul>
+      <li>Exceptional Jungle Pathing </li>
+      <li>High Mechanical Skill </li>
+      <li>Map Awareness and Objectives</li>
+      <li>Smart Decision Making Under Pressure</li>
+      <li>Wide Hero Pool </li>
+      <li>Synchronization with team </li>
+    
+<center>
+     <h2>Favorite Hero</h2>
+	<img src="lancelot.jpg" width="500px"; height="412px">
+	<p><i>Lancelot</i></p>
+
+	<img src="hayabusa.jpg" width="500px"; height="412px">
+	<p><i>Hayabusa</i></p>
+
+	<img src="ling.jpg" width="500px"; height="412px";>
+	<p><i>Ling</i></center></p>
+
+<section class="video-section">
+      <h2>Kairi's Gameplay Videos</h2>
+      <div class="video-grid">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/qdu31AlWKh8?si=WjWmSek_BR-gGS9W" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/Rr6B3G31HH0?si=96G-ojct_MAe6iZa" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/-EZnBPtYung?si=1OKITcD0tTomrs6r" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+
+
+    </ul>
+  </main>
+    <p>&copy; Kairi 2025</p>
+    <div id="clock" style="font-weight: bold; margin-top: 5px;"></div>
+  <script>
+    function updateClock() {
+      const clock = document.getElementById('clock');
+      if (!clock) return;
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString();
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>
